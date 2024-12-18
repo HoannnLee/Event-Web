@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"></Link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/css/Image/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/font-icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+
+                <nav class="header-nav">
+                   <div class="grid wide">
+                        <div class="header-wrapper">
+                            <a href="" id="service" class="category-block hideOnPC">
+                                <i class="fa-solid fa-bars category-block__icon"></i>
+                            </a>
+                            <div class="header-nav__logo">
+                                <img src="./assets/css/Image/logo.jpg" alt="" class="header-nav__logo_img">
+                            </div>
+
+                            <div class="header-nav__withSearch">
+                                    <input type="text" class="header-nav__input" placeholder="Bạn muốn tìm gì?">
+                               
+                                <a href="" class=" btn-search">
+                                    <i class="fa-solid fa-magnifying-glass btn-search__icon"></i>
+                                </a>
+                            </div>
+
+                            <ul class="header-nav__menu hideOnTablet">
+                                <li class="nav__menu-item">
+                                    <a href="./index.html" class="menu-item__link active">Trang chủ</a>
+                                </li>
+                                <li class="nav__menu-item">
+                                    <a href="./Gioithieu.html" class="menu-item__link">Giới thiệu</a>
+                                </li>
+                                <li class="nav__menu-item">
+                                    <a href="./Service.html" class="menu-item__link">Dịch vụ
+                                        <i class="fa-solid fa-chevron-down menu-item__icon"></i>
+                                    </a>
+                                    <ul class="nav__menu-dropdown">
+                                        <li class="menu-dropdown__item">
+                                            <a href="" class="menu-dropdown__link">Sân khấu trong nhà</a>
+                                            <ul class="menu-dropdown__child">
+                                                <li class="dropdown-child__item">
+                                                    <a href="" class="dropdown-child__link">Sân khấu nhỏ</a>
+                                                </li>
+                                                <li class="dropdown-child__item">
+                                                    <a href="" class="dropdown-child__link">Sân khấu vừa</a>
+                                                </li>
+                                                <li class="dropdown-child__item">
+                                                    <a href="" class="dropdown-child__link">Sân khấu lớn</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-dropdown__item">
+                                            <a href="" class="menu-dropdown__link">Sân khấu ngoài trời</a>
+                                            <ul class="menu-dropdown__child">
+                                                <li class="dropdown-child__item">
+                                                    <a href="" class="dropdown-child__link">Sân khấu nhỏ</a>
+                                                </li>
+                                                <li class="dropdown-child__item">
+                                                    <a href="" class="dropdown-child__link">Sân khấu vừa</a>
+                                                </li>
+                                                <li class="dropdown-child__item">
+                                                    <a href="" class="dropdown-child__link">Sân khấu lớn</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-dropdown__item">
+                                            <a href="" class="menu-dropdown__link">Âm Thanh & Ánh Sáng</a>
+                                        </li>
+                                        <li class="menu-dropdown__item">
+                                            <a href="" class="menu-dropdown__link">Màn Hình</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav__menu-item nav__menu-item--login">
+                                    <a href="" id="user"  class="menu-item__link menu-item__user">Đăng Nhập</a>
+                                    <ul class="menu-user--login">
+                                        <li class="menu-user__item--login">
+                                            <a href="" class="menu-user__link--login">Đăng Ký</a>
+                                        </li>
+                                    </ul>
+                                </li>
+<!-- 
+                                <li class="nav__menu-item nav__menu-item--show ">
+                                    <a href="" class="menu-item__link ">Hoan Lee</a>
+                                    <ul class="menu-user">
+                                        <li class="menu-user__item">
+                                            <a href="./Admin.html" class="menu-user__link">Quản trị website</a>
+                                        </li>
+                                        <li class="menu-user__item">
+                                            <a href="" class="menu-user__link">Đơn Hàng</a>
+                                        </li>
+                                        <li class="menu-user__item">
+                                            <a href="" class="menu-user__link">Đăng Xuất</a>
+                                        </li>
+                                    </ul>
+                                </li> -->
+
+                                <li class="nav__menu-item">
+                                    <a href="./Cart.html" class="menu-item__link nav__menu-cart">
+                                        <i class="fa-solid fa-cart-shopping cart-shopping-icon"></i>
+                                       Giỏ hàng
+                                    </a>
+                                    <input type="text" class="count-cart" value="1">
+                                </li>
+                            </ul>
+                               
+                                <!-- menu tablet  -->
+                            <ul class="user-cart-block hideOnPC">                             
+                                <li class="user-cart-item">
+                                    <a href="./Cart.html" class="menu-item__link nav__menu-cart">
+                                        <i class="fa-solid fa-cart-shopping cart-shopping-icon"></i>
+                                    </a>
+                                    <input type="text" class="count-cart" value="1">                               
+                                </li>
+                            </ul>
+
+                            <ul class="header-nav__menu--tb hideOnPC">
+                                <li class="nav__menu-item-tb">
+                                    <a href="./index.html" class="menu-item__link--tb activeTB">
+                                        <i class="fa-solid fa-house-chimney tb-icon"></i>
+                                        <span class="link-title">Trang chủ</span>
+                                    
+                                    </a>
+                                </li>
+                                <li class="nav__menu-item-tb">
+                                    <a href="./Gioithieu.html" class="menu-item__link--tb">
+                                        <i class="fa-regular fa-circle-question tb-icon"></i>
+                                        <span class="link-title">Giới thiệu </span>
+                                    </a>
+                                </li>
+                                <li class="nav__menu-item-tb">
+                                    <a href="./Service.html" id="service" class="menu-item__link--tb">
+                                        <i class="fa-solid fa-square-poll-horizontal tb-icon"></i>
+                                        <span class ="link-title">Dịch vụ</span>
+                                    </a>                                  
+                                </li>
+
+                                <!-- <li class="nav__menu-item-tb nav__menu-item---login">
+                                    <a href="" id="user"  class="menu-item__link--tb ">
+                                        <i class="fa-regular fa-circle-user tb-icon"></i>
+                                        <span class="link-title">Đăng nhập</span>
+                                    </a>
+                                    <ul class="menu-user--login">
+                                        <li class="menu-user__item--login">
+                                            <a href="" class="menu-user__link--login">Đăng Ký</a>
+                                        </li>
+                                    </ul>
+                                </li> -->
+
+                                <li class="nav__menu-item-tb nav__menu-item--show ">
+                                    <a href="" id="user-func" class="menu-item__link--tb ">
+                                        <i class="fa-regular fa-circle-user tb-icon"></i>
+                                        <span class="link-title">Hoan Lee</span>
+                                    </a>
+                                    <ul class="menu-user">
+                                        <li class="menu-user__item">
+                                            <a href="./Admin.html" class="menu-user__link">Quản trị website</a>
+                                        </li>
+                                        <li class="menu-user__item">
+                                            <a href="" class="menu-user__link">Đơn Hàng</a>
+                                        </li>
+                                        <li class="menu-user__item">
+                                            <a href="" class="menu-user__link">Đăng Xuất</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                         
+                            </ul>
+                                <!-- End menu tablet -->
+                        </div>
+                   </div>
+                </nav>
+
+                <div class="header-logo">
+                    <img src="./assets/css/Image/logo.jpg" alt="" class="header-logo_img">
+                </div>
+
+                <ul class="header-menu">
+                    <li class="menu-item">
+                        <a href="./index.html"  id="smooth-page" class="item-link">Trang chủ</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./Gioithieu.html"  id="smooth-page" class="item-link">Giới thiệu</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./Service.html"  id="smooth-page" class="item-link">Dịch vụ</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./Gioithieu.html"  id="smooth-page" class="item-link">Liên hệ</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./Cart.html"  id="smooth-page" class="item-link">Giỏ hàng</a>
+                    </li>
+                </ul>
+
+                <div class="header-content ">
+                    <p class="header-content___name">Công ty TNHH Giải Trí Sự Kiện</p>
+                    <h1 class="header-content___heading"> NewStar </h1>
+                </div>
+
+                <div class="header-btnBook">
+                    <a href="" class="header-btnBook_link">Thuê Ngay</a>
+                </div>
+            </div>                        
+        </header>
+        
+        <main class="main-content">
+            <div class="grid wide">
+
+                <section class="main-content_home">
+                    <div class="row">                  
+                        <div class="col PC-6 Tb-12">
+                            <h2 class="reason-heading">Tại sao nên thuê chúng tôi?</h2>
+                            <p class="reason-para">Tại Công ty TNHH Giải Trí Sự Kiện NewStar, chúng tôi tự hào về việc cung cấp dịch vụ vượt trội và các sản phẩm cho thuê chất lượng cao.
+                                Chúng tôi chuyên cung cấp sân khấu, thiết bị âm thanh và ánh sáng cho các sự kiện như đám cưới, sự kiện riêng tư, lễ tốt nghiệp, các buổi hòa nhạc và khai trương lớn. <br>
+                                Chúng tôi hiểu rằng mỗi sự kiện đều là duy nhất và chúng tôi luôn sẵn sàng đáp ứng mọi nhu cầu của bạn. Dịch vụ cá nhân hóa, thân thiện với thời gian đáp ứng nhanh chóng và phản hồi mọi yêu cầu của chúng tôi làm chúng tôi nổi bật so với các đối thủ cạnh tranh.
+                                <br>Chúng tôi nỗ lực để duy trì các sản phẩm theo xu hướng và mang đến những thiết bị mới nhất trên thị trường. Bằng cách cung cấp đầy đủ các thiết bị sân khấu, âm thanh và ánh sáng, chúng tôi cung cấp một dịch vụ trọn gói cho hầu hết các nhu cầu sự kiện của bạn.
+                                Kết hợp trí tưởng tượng của bạn với kinh nghiệm của đội ngũ nhân viên bán hàng của chúng tôi, Công ty TNHH Giải Trí Sự Kiện NewStar chắc chắn sẽ hiểu được tầm nhìn, nhu cầu và tài nguyên của bạn để giúp tạo ra chính xác sự kiện mà bạn mơ ước. Liên hệ với chúng tôi ngay hôm nay!</p>
+                                <div class="reason-contact">
+                                    <a href="tel:+84339902379" class="reason-contact__link">Liên hệ ngay!</a>
+                                </div>
+                        </div>
+                        <div class="col PC-6 Tb-12">
+                            <img src="./assets/css/Image/Ảnh trang chủ.jpg" alt="" class="reason-img">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="main-content_home">
+
+                    <div class="row">
+                        <div class="col Pc-12 Tb-12">
+                            <div class="des-services">
+                                <p class="des-services__content">
+                                    Dịch vụ chính của NewStar bao gồm:<strong>Cho thuê trang thiết bị sự kiện, Tổ chức sự kiện và Nhân sự sự kiện</strong> . đáp ứng nhu cầu cho các sự kiện có quy mô từ nhỏ đến lớn, với trang thiết bị chất lượng và giá thành hợp lý nhất.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row sTb-gutter">
+
+                        <div class="col PC-3 Tb-6">
+                            <div class="content-showEvent">
+                                <a href="" class="content-showEvent__link">
+                                    <p class="content-showEvent__name">Đám cưới</p>
+                                    <img src="./assets/css/Image/Ảnh trang chủ.jpg" alt="" class="content-showEvent__img">
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col PC-3 Tb-6">
+                            <div class="content-showEvent">
+                                <a href="" class="content-showEvent__link">
+                                    <p class="content-showEvent__name">Ca nhạc</p>
+                                    <img src="./assets/css/Image/Ảnh trang chủ.jpg" alt="" class="content-showEvent__img">
+                                </a>
+                            </div>
+                            
+                        </div>
+                        <div class="col PC-3 Tb-6">
+                            <div class="content-showEvent">
+                                <a href="" class="content-showEvent__link">
+                                    <p class="content-showEvent__name">Đám hỏi</p>
+                                    <img src="./assets/css/Image/Ảnh trang chủ.jpg" alt="" class="content-showEvent__img">
+                                </a>
+                            </div>
+                            
+                        </div>
+                        <div class="col PC-3 Tb-6">
+                            <div class="content-showEvent">
+                                <a href="" class="content-showEvent__link">
+                                    <p class="content-showEvent__name">Hello</p>
+                                    <img src="./assets/css/Image/Ảnh trang chủ.jpg" alt="" class="content-showEvent__img">
+                                </a>
+                            </div>
+                            
+                        </div>
+                        
+                       
+                    </div>
+                </section>
+
+                <section class="main-content_home">
+                    <div class="grid wide">
+
+                       <div class="content-project">
+                            <h2 class="content-project__heading">Dự Án Đã Triển Khai</h2>
+                            <div class="row sTb-gutter">
+                                <div class="col PC-3 Tb-6">
+                                    <a href="" class="content-project__item">
+                                        <div class="hide">
+                                            <div class="content-project__img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                        </div>
+                                        <h3 class="content-project__name">Sự Kiện Khai Giảng Năm Học</h3>
+                                    </a>
+                                </div>
+                                <div class="col PC-3 Tb-6">
+                                    <a href="" class="content-project__item">
+                                        <div class="hide">
+                                            <div class="content-project__img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                        </div>
+                                        <h3 class="content-project__name">Sự Kiện Khai Giảng Năm Học</h3>
+                                    </a>
+                                </div>
+                                <div class="col PC-3 Tb-6">
+                                    <a href="" class="content-project__item">
+                                        <div class="hide">
+                                            <div class="content-project__img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                        </div>
+                                        <h3 class="content-project__name">Sự Kiện Khai Giảng Năm Học</h3>
+                                    </a>
+                                </div>
+                                <div class="col PC-3 Tb-6">
+                                    <a href="" class="content-project__item">
+                                        <div class="hide">
+                                            <div class="content-project__img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                        </div>
+                                        <h3 class="content-project__name">Sự Kiện Khai Giảng Năm Học</h3>
+                                    </a>
+                                </div>
+                                <div class="col PC-3 Tb-6">
+                                    <a href="" class="content-project__item">
+                                        <div class="hide">
+                                            <div class="content-project__img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                        </div>
+                                        <h3 class="content-project__name">Sự Kiện Khai Giảng Năm Học</h3>
+                                    </a>
+                                </div>
+                                <div class="col PC-3 Tb-6">
+                                    <a href="" class="content-project__item">
+                                        <div class="hide">
+                                            <div class="content-project__img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                        </div>
+                                        <h3 class="content-project__name">Sự Kiện Khai Giảng Năm Học</h3>
+                                    </a>
+                                </div>
+                            </div>
+                       </div>
+
+                    </div>
+                </section>
+                <section class="main-content_home">
+                    <div class="grid wide">
+                        <div class="divice-block">
+                            <div class="divice-block__Sound-Light">
+                                <h3 class="device-Block-heading">
+                                    <i class="ti-light-bulb device-Block-heading__icon"></i>
+                                    Âm thanh & Ánh sáng
+                                </h3>
+                                <div class="row sTb-gutter">
+                                    <div class="col PC-3 Tb-4">
+                                      <a href="" class="device-Block__item">
+                                            <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                            <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                            <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                           
+                                            <div class="device-Block-item__add">
+                                                <button class="device-Block-item__addtoCart">
+                                                    <i class="ti-plus device-Block-item_icon "></i>
+                                                    Thêm vào giỏ
+                                                </button>
+                                                <button  class="device-Block-item__addNow">
+                                                    <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                    Đặt ngay
+                                                </button>
+                                            </div>                                   
+                                      </a>
+                                    </div>
+                                    <div class="col PC-3 Tb-4">
+                                        <a href="./ProductBuy.html" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="./ProductBuy.html" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="divice-block__stage">
+                                <h3 class="device-Block-heading">
+                                    <i class="ti-layout device-Block-heading__icon"></i>
+                                     Sân khấu
+                                </h3>
+                                <div class="row sTb-gutter">
+                                    <div class="col PC-3 Tb-4">
+                                      <a href="" class="device-Block__item">
+                                            <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                            <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                            <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                           
+                                            <div class="device-Block-item__add">
+                                                <button class="device-Block-item__addtoCart">
+                                                    <i class="ti-plus device-Block-item_icon "></i>
+                                                    Thêm vào giỏ
+                                                </button>
+                                                <button  class="device-Block-item__addNow">
+                                                    <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                    Đặt ngay
+                                                </button>
+                                            </div>                                   
+                                      </a>
+                                    </div>
+                                    <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="divice-block__screen">
+                                <h3 class="device-Block-heading">
+                                    <i class="ti-blackboard device-Block-heading__icon"></i>
+                                     Màn hình
+                                </h3>
+                                <div class="row sTb-gutter">
+                                    <div class="col PC-3 Tb-4">
+                                      <a href="" class="device-Block__item">
+                                            <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                            <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                            <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                           
+                                            <div class="device-Block-item__add">
+                                                <button class="device-Block-item__addtoCart">
+                                                    <i class="ti-plus device-Block-item_icon "></i>
+                                                    Thêm vào giỏ
+                                                </button>
+                                                <button  class="device-Block-item__addNow">
+                                                    <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                    Đặt ngay
+                                                </button>
+                                            </div>                                   
+                                      </a>
+                                    </div>
+                                    <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                      <div class="col PC-3 Tb-4">
+                                        <a href="" class="device-Block__item">
+                                              <div class="device-Block__item-img" style="background-image:url(./assets/css/Image/Ảnh\ trang\ chủ.jpg);"></div>
+                                              <h4 class="device-Block__item-name">Âm Thanh Trọn Gói</h4>
+                                              <p class="device-Block__item-price">3.500.000đ/ngày</p>
+                                             
+                                              <div class="device-Block-item__add">
+                                                  <button class="device-Block-item__addtoCart">
+                                                      <i class="ti-plus device-Block-item_icon "></i>
+                                                      Thêm vào giỏ
+                                                  </button>
+                                                  <button  class="device-Block-item__addNow">
+                                                      <i class="ti-shopping-cart device-Block-item_icon"></i>
+                                                      Đặt ngay
+                                                  </button>
+                                              </div>                                   
+                                        </a>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main-content_home">
+                    <div class="grid wide">
+                        <div class="stepstoRent-block">
+                            <h4 class="stepstoRent-block__heading">Các Bước Để Thuê Thiết Bị</h4>
+                            <div class="row">                             
+                                <div class="col PC-3 Tb-6">
+                                    <div class="Steps-Block__item">
+                                        <h2 class="Steps-Block__item-step">1</h2>
+                                        <img src="./assets/css/Image/buoc-1-03.jpg" alt="" class="Steps-Block__item-img">
+                                    </div>
+                                </div>      
+                                <div class="col PC-3 Tb-6">
+                                    <div class="Steps-Block__item">
+                                        <h2 class="Steps-Block__item-step">2</h2>
+                                        <img src="./assets/css/Image/buoc-2-03-04.jpg" alt="" class="Steps-Block__item-img">
+                                    </div>
+                                </div>  
+                                <div class="col PC-3 Tb-6">
+                                    <div class="Steps-Block__item">
+                                        <h2 class="Steps-Block__item-step">3</h2>
+                                        <img src="./assets/css/Image/buoc-3-05.jpg" alt="" class="Steps-Block__item-img">
+                                    </div>
+                                </div>  <div class="col PC-3 Tb-6">
+                                    <div class="Steps-Block__item">
+                                        <h2 class="Steps-Block__item-step">4</h2>
+                                        <img src="./assets/css/Image/buoc-4-06.jpg" alt="" class="Steps-Block__item-img">
+                                    </div>
+                                </div>                                    
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main-content_home">
+                    <h2 class="customer-feedback">Khách Hàng Nói Gì Về Chúng Tôi</h2>
+                    <div class="row">
+                        <div class="col PC-6 Tb-12">
+                            <div class="customer-feedback__say">
+                                <p class="feedback__say-opinion">
+
+                                    I want to thank Premier Wedding Rentals staff for the incredible and outstanding job they did decorating the ceremony and reception party at my wedding. From the very first day I stepped into Premier I knew they were who I wanted to work with. They are both so passionate about what they do, they go above and beyond, and make your dreams come true. The day of the wedding I was blown away and Natalia exceeded my expectations. If you are looking for someone to work with look no further!! Thank you so much Premier Wedding Rentals. You guys are amazing!
+
+                                </p>
+                                <div class="user-customer">
+                                    <img src="./assets/css/Image/title.jpg" alt="" class="user-customer-avt">
+                                    <div class="user-customer__info">
+                                        <p class="user-customer__name">Hoan Lee</p>
+                                        <p class="user-customer__job">Dev FE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col PC-6 Tb-12">
+                            <div class="customer-feedback__say">
+                                <p class="feedback__say-opinion">
+
+                                    I want to thank Premier Wedding Rentals staff for the incredible and outstanding job they did decorating the ceremony and reception party at my wedding. From the very first day I stepped into Premier I knew they were who I wanted to work with. They are both so passionate about what they do, they go above and beyond, and make your dreams come true. The day of the wedding I was blown away and Natalia exceeded my expectations. If you are looking for someone to work with look no further!! Thank you so much Premier Wedding Rentals. You guys are amazing!
+
+                                </p>
+                                <div class="user-customer">
+                                    <img src="./assets/css/Image/title.jpg" alt="" class="user-customer-avt">
+                                    <div class="user-customer__info">
+                                        <p class="user-customer__name">Hoan Lee</p>
+                                        <p class="user-customer__job">Dev FE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main-content_home"></section>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col PC-3 Tb-6">
+                        <div class="footer-info">
+                            <h4 class="footer-info__heading">Phương Châm</h4>
+                            <p class="footer-info__text">Kinh nghiệm hơn 8 năm làm sự kiện, lực lượng nhân sự chất lượng hơn 40 người, 
+                                và hơn 70 nhân sự cộng tác, chúng tôi đang nỗ lực hơn để mang đến trải nghiệm dịch vụ cho thuê tốt nhất.
+                            </p>
+                            <div class="footer-info__scoial">
+                                <h4 class="info-social__heading">Kết Nối Với Chúng Tôi</h4>
+                                <ul class="info-social__list">
+                                    <li class="info-social__item">
+                                        <a href="" class="info-social__link info-social__link--fb">
+                                            <i class="ti-facebook info-social__icon"></i>
+                                        </a>
+                                    </li>
+                                    <li class="info-social__item">
+                                        <a href="" class="info-social__link background-google-colors">
+                                            <i class=" ti-google info-social__icon "></i>
+                                        </a>
+                                    </li>
+                                    <li class="info-social__item">
+                                        <a href="" class="info-social__link background-multicolor">
+                                            <i class="ti-instagram info-social__icon"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col PC-3 Tb-6">
+                        <div class="footer-contact">
+                            <h4 class="footer-contact__heading">Liên Hệ </h4>
+                           <ul class="footer-contact__list">
+                            <li class="footer-contact__item  ">Công ty TNHH Giải Trí Sự Kiện NewStar</li>
+                            <li class="footer-contact__item "><span class="footer-contact__item--strong">Địa chỉ</span>: 80 TRương Công Định, TP Vũng Tàu, tỉnh Bà Rịa Vũng Tàu</li>
+                            <li class="footer-contact__item "><span class="footer-contact__item--strong">Kho Xưởng</span>: 50 Phan Kế Bính, Phường 9, Vũng Tàu, Bà Rịa - Vũng Tàu </li>
+                            <li class="footer-contact__item "><span class="footer-contact__item--strong">Điện thoại</span>: 1900122322</li>
+                            <li class="footer-contact__item "><span class="footer-contact__item--strong">Email</span>: TrungKienEvent@gmail.com</li>
+                           </ul>
+                           
+                        </div>
+                    </div>
+                    <div class="col PC-3 Tb-6">
+                        <div class="footer-policy">
+                            <h4 class="footer-policy__heading">Chính sách</h4>
+                            <ul class="footer-policy-List">
+                                <li class="policy-list__item">
+                                    <a href="" class="policy-item__link">Chính sách Thuê Thiết Bị</a>
+                                </li>
+                                <li class="policy-list__item">
+                                    <a href="" class="policy-item__link">Chính sách Thanh toán</a>
+                                </li>
+                                <li class="policy-list__item">
+                                    <a href="" class="policy-item__link">Chính sách Vận Chuyển</a>
+                                </li>
+                                <li class="policy-list__item">
+                                    <a href="" class="policy-item__link">Chính sách Bảo Mật Thông Tin</a>
+                                </li>
+                                <li class="policy-list__item">
+                                    <a href="" class="policy-item__link"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col PC-3 Tb-6">
+                        <div class="footer-info .footer-info--nopd">
+                            <img src="./assets/css/Image/logo.jpg" alt="" class="footer-info__logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> 
+
+            <!-- Login form  -->
+
+            <div class="auth-form">
+                <div class="auth-form__header">
+                    <h3 class="auth-form__heading">Đăng Nhập</h3>
+                    <a href="./Register.html" id="smooth-page" class="auth-form__switch-btn">Đăng Ký</a>
+                </div>
+                <div class="auth-form__container">
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <div class="form-feild">
+                                <input type="text" class="form-input" placeholder=" ">
+                                <lable class="form-label">Email</lable>
+                            </div>
+                            <div class="form-feild">
+                                <input type="text" class="form-input" placeholder=" ">
+                                <lable class="form-label">Nhập Mật Khẩu</lable>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="auth-form___aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form_help_link auth-form_help-">Quên Mật Khẩu</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form_help_link">Cần Trợ Giúp?</a>
+
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <a class="btn auth-form__controls--back btn--normal">Trở Lại</a>
+                        <a href="./Register.html" class="btn btn--primary">Đăng Ký</a>
+                    </div>
+
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--fb btn btn--with-icon">
+                        <i class="auth-form__socials-icon  btn--size-s ti-facebook"></i>
+                        <span class="auth-form__socials-title"> Kết nối faceBook</span>
+                    </a>
+                    
+                    <a href="" class="btn btn--with-icon">
+                        <i class="auth-form__socials--GG auth-form__socials-icon  btn--size-s ti-google"></i>                      
+                        <span class="auth-form__socials-title"> Kết nối  Google</span>
+                    </a>
+                </div>
+
+            </div>
+         </div>
+    </div>
+
+    <!-- Tablet Service -->
+    <div class="service-category--tb">
+         <div class="service-category__overlay"></div>
+        <div class="service-category__container">
+            <ul class="category-list--tb">
+                <li class="category-item category-item--tb">
+                    <div class="wrapper-tb">
+                        <a href="" class="category-item__link--tb category-item--active">
+                            Sân khấu trong nhà                                    
+                        </a>
+                        <button class="btn-show__droplist"> <i class="ti-angle-right btn-show__droplist-icon"></i></button>
+                    </div>
+                    <ul class="category-item__droplist category-item__droplist--tb">
+                        <li class="droplist-item droplist-item--tb">
+                            <a href="" class="droplist-item__link--tb">Sân khấu nhỏ</a>
+                        </li>
+                        <li class="droplist-item droplist-item--tb">
+                            <a href="" class="droplist-item__link--tb">Sân khấu vừa</a>
+                        </li>
+                        <li class="droplist-item droplist-item--tb">
+                            <a href="" class="droplist-item__link--tb">Sân khấu lớn</a>
+                        </li>                          
+                    </ul>
+                </li>
+                <li class="category-item category-item--tb">
+                    <div class="wrapper-tb">
+                        <a href="" class="category-item__link--tb category-item--active">
+                            Sân khấu ngoài trời                                    
+                        </a>
+                        <button class="btn-show__droplist"> <i class="ti-angle-right btn-show__droplist-icon"></i></button>
+                    </div>
+                    <ul class="category-item__droplist category-item__droplist--tb">
+                        <li class="droplist-item droplist-item--tb">
+                            <a href="" class="droplist-item__link--tb">Sân khấu nhỏ</a>
+                        </li>
+                        <li class="droplist-item droplist-item--tb">
+                            <a href="" class="droplist-item__link--tb">Sân khấu vừa</a>
+                        </li>
+                        <li class="droplist-item droplist-item--tb">
+                            <a href="" class="droplist-item__link--tb">Sân khấu lớn</a>
+                        </li>                          
+                    </ul>
+                </li>
+                <li class="category-item category-item--tb">
+                    <a href="" class="category-item__link--tb">
+                        Âm thanh & Ánh sáng
+                    </a>
+                </li>
+                <li class="category-item category-item--tb">
+                    <a href="" class="category-item__link--tb">
+                        Màn hình
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+     </div>
+
+     <!-- Tablet User  -->
+
+     <div class="user-function--tb">
+         <div class="user-function__overlay"></div>
+         <div class="user-function__body">
+            <ul class="user-function__list">
+                <li class="user-function__item">
+                    <a href="./Admin.html" class="user-function__link">Quản trị website</a>
+                </li>
+                <li class="user-function__item">
+                    <i class="fa-solid fa-right-from-bracket admin-icon"></i>
+                    <a href="" class="user-function__link">Đăng Xuất</a>
+                </li>
+            </ul>
+         </div>
+     </div>
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>

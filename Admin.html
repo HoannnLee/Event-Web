@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"></Link>
+    <link rel="shortcut icon" href="./assets/css/Image/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/font-icon/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Quản trị trang web</title>
+</head>
+<body>
+    <div class="main-content">
+        <div class="grid wide14">
+            <div class="container-ad">
+                 <div class="row">
+                    <div class="col PC-2">
+                        <nav class="menu-Admin">
+                            <header class="Admin-logo">
+                                <img src="./assets/css/Image/logo.jpg" alt="" class="Admin-logo__img">
+                                <div class="Admin-logo__name">
+                                    <a href="" class="Admin-logo__link">Trung Kiên Event</a>
+                                </div>
+                            </header>
+
+                           
+                            <div class="menu-Admin-flex">
+                                <ul class="menu-Admin__navigation">                                 
+                                    <li class="navigation-item  Tabs activeTabs active">
+                                       
+                                        <a href="#" class="navigation-item__link ">
+                                            <i class="fa-regular fa-circle-user admin-icon"></i>
+                                            Tài khoản
+                                        </a>
+                                    </li>
+                                    <li class="navigation-item Tabs">
+                                        <a href="#" class="navigation-item__link">
+                                            <i class="fa-solid fa-square-poll-horizontal admin-icon"></i>
+                                            Dịch vụ
+                                        </a>
+                                    </li>
+                                    <li class="navigation-item Tabs">
+                                        <a href="#" class="navigation-item__link ">
+                                            <i class="fa-solid fa-basket-shopping  admin-icon"></i>
+                                            Đơn hàng
+                                        </a>
+                                    </li>
+                                    <li class="navigation-item Tabs">
+                                        <a href="#" class="navigation-item__link ">
+                                            <i class="fa-solid fa-gears admin-icon"></i>
+                                            Thiết bị
+                                        </a>
+                                    </li>
+                                    <li class="navigation-item Tabs">
+                                        <a href="#" class="navigation-item__link ">
+                                            <i class="fa-solid fa-clipboard-user admin-icon"></i>
+                                            Nhân viên
+                                        </a>
+                                    </li>
+                                    <li class="navigation-item Tabs">
+                                        <a href="#" class="navigation-item__link ">
+                                            <i class="fa-solid fa-users admin-icon"></i>
+                                            Khách hàng
+                                        </a>
+                                    </li>
+                                    <li class="navigation-item Tabs">
+                                        <a href="#" class="navigation-item__link ">
+                                            <i class="fa-solid fa-hourglass-half admin-icon"></i>
+                                            Tiến trình
+                                        </a>
+                                    </li>
+                                
+                                    <li class="navigation-item">                                      
+                                        <a href="./index.html" class="navigation-item__link ">
+                                            <i class="fa-solid fa-store admin-icon"></i>
+                                            Trang chủ
+                                        </a>
+                                    </li>
+                                </ul>
+
+
+                                <div class="menu-Admin-flex__logout">                                  
+                                    <a href="#" class="logout-btn ">
+                                        <i class="fa-solid fa-right-from-bracket admin-icon"></i>
+                                        Đăng xuất
+                                    </a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                     
+                    <div class="col PC-10">
+                        <header class="Welcome-block">
+                            <div class="Welcome-block-title">
+                                <h2 class="Welcome-block__heading">Chào mừng đến với trang quản trị</h2>
+                                <p class="Welcome-block__des">Bạn sẽ quản lý website ở đây</p>
+                            </div>
+                          <ul class="dateTime-block">
+                            <li class="dateTime-item">
+                              <div class="currentTime">00:00:00</div>
+                            </li>
+                            <li class="dateTime-item">
+                              <span class="curent-date"><i class="fa-regular fa-calendar dateTime-item__icon"></i></span>
+                              <div class="currentDate"><span class="date-text">00/00/0000</span></div>
+                            </li>
+                          </ul>
+                        </header>
+
+                        <main class="Admin-content">
+
+                            <!-- Acount -->
+                           <div class="content-tabs activeTabs">
+                                <h3 class="Admin-content__heading">Danh sách tài khoản người dùng</h3>
+                                <table class="Admin-content__data" id="customers">
+                                    <tr class="data-row">
+                                    <th class="data-heading">ID</th>
+                                    <th class="data-heading">Tên người dùng</th>
+                                    <th class="data-heading">Mật khẩu</th>
+                                    <th class="data-heading">Quyền</th>
+                                    <th class="data-heading">Ghi chú</th>
+                                    <th class="data-heading">Thao tác</th>                             
+                                    </tr>    
+                                    <tr class="data-row">
+                                        <td class="data">1</th>
+                                        <td class="data">Hoan Lee</td>
+                                        <td class="data">123456789</td>      
+                                        <td class="data">Admin</td>           
+                                        <td class="data"></td>           
+                                        <td class="data">
+                                            <a href="./Admin-Update.html" class=" btn-data-function btn-data-function--update" title="cập nhật dữ liệu">
+                                                <i class="fa-solid fa-wrench icon-function"></i>
+                                            </a>
+                                            <a href="" class=" btn-data-function btn-data-function--delete" title="xóa dữ liệu">
+                                                <i class="fa-solid fa-trash-can icon-function"></i>
+                                            </a>
+                                        </td>      
+                                    </tr>       
+                                    <tr class="data-row">
+                                        <td class="data">1</th>
+                                        <td class="data">Hoan Lee</td>
+                                        <td class="data">123456789</td>      
+                                        <td class="data">Admin</td>      
+                                        <td class="data"></td>      
+                                        <td class="data">
+                                            <a href="" class=" btn-data-function btn-data-function--update" title="cập nhật dữ liệu">
+                                                <i class="fa-solid fa-wrench icon-function"></i>
+                                            </a>
+                                            <a href="" class=" btn-data-function btn-data-function--delete" title="xóa dữ liệu">
+                                                <i class="fa-solid fa-trash-can icon-function"></i>
+                                            </a>
+                                        </td>      
+                                    </tr>                                
+                                                                                                                                                
+                                </table>
+                           </div>
+                            <!-- Services -->
+                            <div class="content-tabs ">
+                                <h3 class="Admin-content__heading">Danh sách dịch vụ</h3>
+                                
+                                <table class="Admin-content__data" id="customers">
+                                    <tr class="data-row">
+                                        <th class="data-heading">Mã dịch vụ</th>
+                                        <th class="data-heading">Tên dịch vụ</th>
+                                        <th class="data-heading">Mô tả dịch vụ</th>
+                                        <th class="data-heading">Đơn giá</th>                                                 
+                                        <th class="data-heading">Thao tác</th>                                                 
+                                    </tr>    
+                                    <tr class="data-row">
+                                        <td class="data">DV1</th>
+                                        <td class="data">Âm thanh ánh sáng trọn gói</td>
+                                        <td class="data">Gói dịch vụ bao gồm có : 2 Loa lớn <br> sân khấu , 1 màn hinh tầm trung , 4 loa nhỏ</td>      
+                                        <td class="data">300.000.000vnđ</td>                     
+                                        <td class="data">
+                                            <a href="" class=" btn-data-function btn-data-function--update" title="cập nhật dữ liệu">
+                                                <i class="fa-solid fa-wrench icon-function"></i>
+                                            </a>
+                                            <a href="" class=" btn-data-function btn-data-function--delete" title="xóa dữ liệu">
+                                                <i class="fa-solid fa-trash-can icon-function"></i>
+                                            </a>
+                                        </td>      
+                                    </tr>                                                                                                                                                                                                                  
+                                </table>
+                                <a href="./Admin-add.html" class="btn btn-data-function--add" title="thêm dữ liệu">
+                                    <i class="fa-solid fa-plus icon-function"></i>
+                                </a>
+                           </div>
+                           <!-- Orders -->
+                           <div class="content-tabs ">
+                            <h3 class="Admin-content__heading">Danh sách đơn hàng</h3>
+                            
+                            <table class="Admin-content__data" id="customers">
+                                <tr class="data-row">
+                                    <th class="data-heading">Mã đơn hàng</th>
+                                    <th class="data-heading">ID dịch vụ</th>
+                                    <th class="data-heading">Số lượng</th>                                                 
+                                    <th class="data-heading">Đơn giá</th>                                                 
+                                    <th class="data-heading">Ghi chú</th>                                                 
+                                    <th class="data-heading">Thao tác</th>                                                 
+                                </tr>    
+                                <tr class="data-row">
+                                    <td class="data">1</th>
+                                    <td class="data">DV1</td>      
+                                    <td class="data">1</td>                     
+                                    <td class="data">300.000.000vnđ</td>                     
+                                    <td class="data">Đám cưới, tới trước 1 ngày</td>                                       
+                                    <td class="data">
+                                        <a href="" class=" btn-data-function btn-data-function--update" title="cập nhật dữ liệu">
+                                            <i class="fa-solid fa-wrench icon-function"></i>
+                                        </a>
+                                        <a href="" class=" btn-data-function btn-data-function--delete" title="xóa dữ liệu">
+                                            <i class="fa-solid fa-trash-can icon-function"></i>
+                                        </a>
+                                    </td>      
+                                </tr>                                                                                                                                                                                                                  
+                            </table>
+                        
+                            </div>
+                            <!-- Equipment -->
+                            <div class="content-tabs ">
+                                <h3 class="Admin-content__heading">Danh sách thiết bị</h3>
+                                
+                                <table class="Admin-content__data" id="customers">
+                                    <tr class="data-row">
+                                        <th class="data-heading">Mã thiết bị</th>
+                                        <th class="data-heading">Tên thiết bị</th>
+                                        <th class="data-heading">Số lượng</th>
+                                        <th class="data-heading">Tình trạng</th>                                                 
+                                        <th class="data-heading">Ghi chú</th>                                                 
+                                        <th class="data-heading">Thao tác</th>                                                 
+                                    </tr>    
+                                    <tr class="data-row">
+                                        <td class="data">001</th>
+                                        <td class="data">Loa burmester</td>
+                                        <td class="data">10</td>      
+                                        <td class="data">Bình thường</td>                     
+                                        <td class="data"></td>                     
+                                        <td class="data">
+                                            <a href="" class=" btn-data-function btn-data-function--update" title="cập nhật dữ liệu">
+                                                <i class="fa-solid fa-wrench icon-function"></i>
+                                            </a>
+                                            <a href="" class=" btn-data-function btn-data-function--delete" title="xóa dữ liệu">
+                                                <i class="fa-solid fa-trash-can icon-function"></i>
+                                            </a>
+                                        </td>      
+                                    </tr>                                                                                                                                                                                                                  
+                                </table>
+                                <a href="" class="btn btn-data-function--add" title="thêm dữ liệu">
+                                    <i class="fa-solid fa-plus icon-function"></i>
+                                </a>
+                           </div>
+
+                           <!-- Staff -->
+                           <div class="content-tabs ">
+                            <h3 class="Admin-content__heading">Danh sách nhân viên</h3>
+                            
+                            <table class="Admin-content__data" id="customers">
+                                <tr class="data-row">
+                                    <th class="data-heading">Mã nhân viên</th>
+                                    <th class="data-heading">Tên nhân viên</th>
+                                    <th class="data-heading">Vị trí</th>
+                                    <th class="data-heading">Số điện thoại</th>                                                 
+                                    <th class="data-heading">Email</th>                                                 
+                                    <th class="data-heading">Trạng thái</th>                                                 
+                                    <th class="data-heading">Thao tác</th>                                                 
+                                </tr>    
+                                <tr class="data-row">
+                                    <td class="data">NV01</th>
+                                    <td class="data">Dương Văn Hiếu</td>
+                                    <td class="data">Quản lý</td>      
+                                    <td class="data">1234567890</td>                     
+                                    <td class="data">DVH@gmail.com</td>                     
+                                    <td class="data">Đang làm</td>                     
+                                    <td class="data">
+                                        <a href="" class=" btn-data-function btn-data-function--update" title="cập nhật dữ liệu">
+                                            <i class="fa-solid fa-wrench icon-function"></i>
+                                        </a>
+                                        <a href="" class=" btn-data-function btn-data-function--delete" title="xóa dữ liệu">
+                                            <i class="fa-solid fa-trash-can icon-function"></i>
+                                        </a>
+                                    </td>      
+                                </tr>                                                                                                                                                                                                                  
+                            </table>
+                            <a href="" class="btn btn-data-function--add" title="thêm dữ liệu">
+                                <i class="fa-solid fa-plus icon-function"></i>
+                            </a>
+                            </div>
+
+                            <!-- Customer -->
+                            <div class="content-tabs ">
+                                <h3 class="Admin-content__heading">Danh sách nhân viên</h3>
+                                
+                                    <table class="Admin-content__data" id="customers">
+                                        <tr class="data-row">
+                                            <th class="data-heading">Mã khách hàng</th>
+                                            <th class="data-heading">Tên khách hàng</th>
+                                            <th class="data-heading">Email</th>                                                 
+                                            <th class="data-heading">Số điện thoạik</th>                                                 
+                                            <th class="data-heading">Địa chỉ</th>
+                                            <th class="data-heading">Loại sự kiện</th>                                                 
+                                            <th class="data-heading">Ngày tổ chức</th>                                                 
+                                            <th class="data-heading">Vị trí sự kiện</th>                                                 
+                                            <th class="data-heading">Thao tác</th>                                                 
+                                        </tr>    
+                                        <tr class="data-row">
+                                            <td class="data">KH01</th>
+                                            <td class="data">Dương Văn Hiếu</td>
+                                            <td class="data">DVH@gmail.com</td>                     
+                                            <td class="data">1234567890</td>                     
+                                            <td class="data">81 Trương công định</td>      
+                                            <td class="data">Tất niên</td>                     
+                                            <td class="data">22/12/2024</td>                     
+                                            <td class="data">81 Trương Công Định</td>                     
+                                            <td class="data">
+                                                <a href="" class=" btn-data-function btn-data-function--update" title="cập nhật dữ liệu">
+                                                    <i class="fa-solid fa-wrench icon-function"></i>
+                                                </a>
+                                                <a href="" class=" btn-data-function btn-data-function--delete" title="xóa dữ liệu">
+                                                    <i class="fa-solid fa-trash-can icon-function"></i>
+                                                </a>
+                                            </td>      
+                                        </tr>                                                                                                                                                                                                                  
+                                    </table>
+                                        <a href="" class="btn btn-data-function--add" title="thêm dữ liệu">
+                                            <i class="fa-solid fa-plus icon-function"></i>
+                                        </a>
+                            </div>
+
+                            <!-- Schedules -->
+
+                            <div class="content-tabs ">
+                                <h3 class="Admin-content__heading">Danh sách nhân viên</h3>
+                                
+                                <table class="Admin-content__data" id="customers">
+                                    <tr class="data-row">
+                                        <th class="data-heading">Mã tiến trình</th>
+                                        <th class="data-heading">Mã nhân viên</th>
+                                        <th class="data-heading">Mã khách hàng</th>                                                 
+                                        <th class="data-heading">Thời gian bắt đầu</th>                                                 
+                                        <th class="data-heading">Thời gian kết thúc</th>
+                                        <th class="data-heading">Nhiệm vụ</th>                                                                                                 
+                                        <th class="data-heading">Ghi chú</th>                                                                                                 
+                                        <th class="data-heading">Thao tác</th>                                                 
+                                    </tr>    
+                                    <tr class="data-row">
+                                        <td class="data">01</th>
+                                        <td class="data">NV01</td>
+                                        <td class="data">KH01</td>                     
+                                        <td class="data">10:00 am</td>                     
+                                        <td class="data">14:00 pm</td>      
+                                        <td class="data">Đang thi công</td>                     
+                                        <td class="data">NV01, NV02, NV03, NV04</td>                                          
+                                        <td class="data">
+                                            <a href="" class=" btn-data-function btn-data-function--update" title="cập nhật dữ liệu">
+                                                <i class="fa-solid fa-wrench icon-function"></i>
+                                            </a>
+                                            <a href="" class=" btn-data-function btn-data-function--delete" title="xóa dữ liệu">
+                                                <i class="fa-solid fa-trash-can icon-function"></i>
+                                            </a>
+                                        </td>      
+                                    </tr>                                                                                                                                                                                                                  
+                                </table>
+                            </div>
+                        </main>
+                    </div>
+                 </div>
+            </div>
+         </div>
+    </div>
+
+    <script src="./assets/Admin.js"></script>
+</body>
+</html>
