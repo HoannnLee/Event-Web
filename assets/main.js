@@ -1,9 +1,12 @@
-let isScrollingDown = false;
+
 
 window.onscroll = function() {
+  // const isScrollingDown = false;
   const navbar = document.querySelector(".header-nav");
   const totalBlock = document.querySelector(".cart-block__total");
   const currentScrollPos = window.scrollY;
+
+  console.log(currentScrollPos)
 
   if (currentScrollPos > 300) { 
     if (!isScrollingDown) {
@@ -22,7 +25,6 @@ window.onscroll = function() {
       Object.assign(totalBlock.style ,{
         position: 'fixed',
         left: '50%',
-        transform: 'translateX(-50%)',
         bottom: '1px',
         width: '100%',
         
@@ -34,7 +36,6 @@ window.onscroll = function() {
       Object.assign(totalBlock.style ,{
         position: 'relative',
         left: '50%',
-        transform: 'translateX(-50%)',
         bottom: '0',
         animation: 'Up 0.4s linear',
         width: '100%',
